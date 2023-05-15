@@ -14,11 +14,12 @@
 .header {
   height: 29px;
   display: flex;
-  justify-content: space-between;
   margin-top: 44px;
+  align-items: center;
 }
 .title {
   all: unset;
+  margin-right: 217px;
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 24px;
@@ -27,17 +28,17 @@
 }
 .navList {
   list-style-type: none;
-  text-decoration: none;
-  margin: 4px 0 4px;
+  width: 472.77px;
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 50px;
 }
 .navList > li {
   display: inline;
+  padding-right: 25px;
 }
 .navList a {
   font-family: "DM Sans";
@@ -46,6 +47,17 @@
   line-height: 21px;
   color: #161616;
   text-decoration: none;
+}
+.rightNav {
+  width: 78px;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rightNavIcon {
+  width: 24px;
+height: 24px;
 }
 
 /* Home */
