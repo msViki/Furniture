@@ -1,0 +1,122 @@
+.body {
+  /* width: 1440px; */
+  height: 4893px;
+  background: #fcfbff;
+  margin: 0;
+}
+.centeredBlock {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.title {
+  all: unset;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #244d4d;
+}
+.navList {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 4px 0 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.navList > li {
+  display: inline;
+}
+.navList a {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #161616;
+  text-decoration: none;
+}
+
+/* Home */
+
+.home {
+  margin-top: 26.85px;
+  height: 560px;
+  display: flex;
+}
+.homePhoto {
+  height: 560px;
+}
+.homeContent {
+  flex: 1;
+  background: #154444;
+}
+.homeText {
+  margin: 101px auto 0px 100px;
+  width: 671px;
+  height: 231px;
+}
+.homeTitle {
+  all: unset;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.homeDescription {
+  margin-top: 20px;
+  width: 488px;
+  height: 75px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.homeButton {
+  box-sizing: border-box;
+  width: 172px;
+  height: 56px;
+  margin: 35px auto auto 100px;
+  padding: 15.5px 25.21px 15.5px 25.79px;
+  background: #ffffff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  line-height: 25px;
+  color: #154444;
+  border: none;
+}
+
+/* Trusted */
+
+.trusted {
+  margin: 110px auto 0;
+  width: 1082px;
+}
+.trustedText {
+  width: 486.85px;
+  margin: 0 auto 0;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #244d4d;
+}
+.trustedCompanies {
+  height: 51.97px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
