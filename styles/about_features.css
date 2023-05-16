@@ -20,50 +20,326 @@
 }
 .aboutTitle {
   all: unset;
-  font-family: 'Montserrat';
-font-weight: 700;
-font-size: 32px;
-line-height: 40px;
-color: #244D4D;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244d4d;
 }
 .aboutDescription {
-    margin-top: 20px;
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #444444;
-    text-align: justify;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #444444;
+  text-align: justify;
 }
 .aboutInfo {
-    width: 376.21px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 376.21px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .infoPoint {
-    height: 92px;
-    display: flex;
+  height: 92px;
+  display: flex;
 }
 .infoPointIcon {
-    width: 50px;
-height: 50px;
-margin: 0 28px auto 0;
+  width: 50px;
+  height: 50px;
+  margin: 0 28px auto 0;
 }
 .infoPointTitle {
-    all: unset;
-    font-family: 'Montserrat';
-font-weight: 700;
-font-size: 20px;
-line-height: 26px;
-color: #244D4D;
+  all: unset;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #244d4d;
 }
 .infoPointText {
-    margin-top: 14px;
+  margin-top: 14px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #383738;
+}
+
+/* Features */
+
+/* Popular */
+
+.popularFurniture {
+  height: 584.88px;
+  margin-top: 140px;
+}
+.popularHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.popularText {
+  width: 819.7px;
+  margin-right: 282.4px;
+}
+.popularTitle {
+  all: unset;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  color: #242424;
+}
+.popularDescription {
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #383738;
+}
+.popularArrows {
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+}
+.popularExamples {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.popularExample {
+  width: 380px;
+  height: 382.31px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+}
+.examplePhoto {
+  width: 380px;
+  height: 246.34px;
+}
+.exampleInfo {
+  width: 331.88px;
+  height: 79.25px;
+  margin: 30.03px auto auto 24.06px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.exampleInfoLine {
+  display: flex;
+  justify-content: space-between;
+}
+.exampleName {
+  all: unset;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #242424;
+}
+.exampleInfoIcon {
+  width: 26px;
+  height: 26px;
+}
+.examplePrice {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #154444;
+}
+.exampleButton {
+  width: 78.85px;
+  height: 32px;
+  background: #244d4d;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  color: #ffffff;
+  border: none;
+}
+.activeLikeIcon,
+.likeIcon {
+  margin-right: 8px;
+}
+.exampleButton:hover, .exampleInfoIcon:hover, .arrow:hover {
+  cursor: pointer;
+}
+
+/* All */
+
+.allFurniture {
+  margin-top: 140px;
+  width: 1186.93px;
+}
+.allFurnitureTitle {
+  all: unset;
+  margin-left: 454.93px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #242424;
+}
+.allFurnitureNav {
+  width: 720px;
+  margin: 20px auto 0;
+}
+.allFurnitureNavbar {
+  all: unset;
+  width: 720px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activeFurniture {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #154444;
+}
+.passiveFurniture {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #919090;
+}
+.activeFurniture:hover, .passiveFurniture:hover {
+cursor: pointer;
+}
+.rectangle {
+  width: 57.02px;
+  height: 2.3px;
+  margin-left: 48.31px;
+  margin-top: 6px;
+  background: #154444;
+}
+.allFurnitureContent {
+  margin-top: 80px;
+  display: flex;
+}
+.allFurniturePhoto {
+  width: 577.48px;
+  height: 410.07px;
+  margin-right: 135.45px;
+}
+.options {
+  margin: auto 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 33.42px 30px;
+}
+.option {
+  width: 222px;
+  height: 90px;
+  border: 1.5px solid #d9dce5;
+}
+.option:hover {
+  cursor: pointer;
+}
+.optionIcon {
+  width: 24px;
+  height: 24px;
+  margin: 15.5px auto 0;
+  display: block;
+}
+.optionText {
+  margin-top: 14px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #808080;
+  text-align: center;
+}
+.activeOption {
+  background-color: #154444;
+  color: #ffffff;
+}
+
+/* customers */
+
+.customers {
+  margin-top: 140px;
+  width: 1200px;
+  height: 492.42px;
+  display: flex;
+}
+.customersPhoto {
+  width: 564.29px;
+  height: 492.42px;
+}
+.customersContent {
+  margin: 105.41px auto auto 100.64px;
+}
+.customersTitle {
+  all: unset;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #242424;
+}
+.customersText {
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #383738;
+}
+.customerFeedback {
+  width: 129px;
+height: 50px;
+margin-top: 40.25px;
+display: flex;
+}
+.profilePhoto {
+  width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+.customerName {
+  margin-top: 4.42px;
 font-family: 'DM Sans';
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-color: #383738;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.customerStar {
+  margin-top: 6.16px;
+  width: 44.99px;
+height: 16px;
+display: flex;
+}
+.starIcon {
+  width: 16px;
+height: 16px;
+margin-right: 7.99px;
+}
+.starNumber {
+  width: 21px;
+height: 15px;
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 14px;
+line-height: 15px;
+color: #000000;
 }

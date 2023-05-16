@@ -1,8 +1,12 @@
 .body {
-  /* width: 1440px; */
-  height: 4893px;
   background: #fcfbff;
   margin: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.body::-webkit-scrollbar {
+  display: none;
 }
 .centeredBlock {
   width: 1200px;
@@ -40,6 +44,9 @@
   display: inline;
   padding-right: 25px;
 }
+.navList > li:hover {
+  cursor: pointer;
+}
 .navList a {
   font-family: "DM Sans";
   font-weight: 400;
@@ -58,6 +65,9 @@
 .rightNavIcon {
   width: 24px;
 height: 24px;
+}
+.rightNavIcon:hover {
+  cursor: pointer;
 }
 
 /* Home */
@@ -109,6 +119,9 @@ height: 24px;
   line-height: 25px;
   color: #154444;
   border: none;
+}
+.homeButton:hover {
+  cursor: pointer;
 }
 
 /* Trusted */

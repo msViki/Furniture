@@ -1,0 +1,89 @@
+/* Contacts */
+
+.contact {
+    margin-top: 140px;
+    height: 394.32px;
+    width: 1200px;
+    background: #F4F6F6;
+}
+.contactContent {
+    width: 605px;
+    position: relative;
+top: 68px;
+left: 297.5px;
+}
+.contactTitle {
+    all: unset;
+    display: block;
+height: 96px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+color: #222222;
+}
+.contactText {
+    width: 493px;
+    margin: 20px auto 0;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+}
+.contactForm {
+    margin: 40px auto 0;
+    width: 471.98px;
+height: 67px;
+background: #FFFFFF;
+display: flex;
+}
+.inputIcon {
+    width: 16px;
+height: 16px;
+margin: 25.49px 12px auto 17.52px;
+}
+.contactInput {
+    height: 100%;
+    width: 281.96px;
+    font-family: 'DM Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #BABABA;
+border: none;
+}
+.contactButton {
+    width: 125.32px;
+height: 52px;
+margin-top: 6.99px;
+background: #305F64;
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+border: none;
+}
+.contactButton:hover, .inputIcon:hover {
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    margin-top: 140px;
+height: 442px;
+background: #305F64;
+}
+.footerContent {
+    margin-top: 100.27px;
+    margin-left: 120px;
+    height: 277.65px;
+}
+.copyright {
+    height: 63.09px;
+}
