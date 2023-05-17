@@ -1,89 +1,204 @@
 /* Contacts */
 
 .contact {
-    margin-top: 140px;
-    height: 394.32px;
-    width: 1200px;
-    background: #F4F6F6;
+  margin-top: 140px;
+  height: 394.32px;
+  width: 1200px;
+  background: #f4f6f6;
 }
 .contactContent {
-    width: 605px;
-    position: relative;
-top: 68px;
-left: 297.5px;
+  width: 605px;
+  position: relative;
+  top: 68px;
+  left: 297.5px;
 }
 .contactTitle {
-    all: unset;
-    display: block;
-height: 96px;
-font-family: 'Montserrat';
-font-weight: 700;
-font-size: 32px;
-line-height: 48px;
-text-align: center;
-color: #222222;
+  all: unset;
+  display: block;
+  height: 96px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #222222;
 }
 .contactText {
-    width: 493px;
-    margin: 20px auto 0;
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #222222;
+  width: 493px;
+  margin: 20px auto 0;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
 }
 .contactForm {
-    margin: 40px auto 0;
-    width: 471.98px;
-height: 67px;
-background: #FFFFFF;
-display: flex;
+  margin: 40px auto 0;
+  width: 471.98px;
+  height: 67px;
+  background: #ffffff;
+  display: flex;
 }
 .inputIcon {
-    width: 16px;
-height: 16px;
-margin: 25.49px 12px auto 17.52px;
+  width: 16px;
+  height: 16px;
+  margin: 25.49px 12px auto 17.52px;
 }
 .contactInput {
-    height: 100%;
-    width: 281.96px;
-    font-family: 'DM Sans';
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #BABABA;
-border: none;
+  height: 100%;
+  width: 281.96px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #bababa;
+  border: none;
 }
 .contactButton {
-    width: 125.32px;
-height: 52px;
-margin-top: 6.99px;
-background: #305F64;
-font-family: 'DM Sans';
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-border: none;
+  width: 125.32px;
+  height: 52px;
+  margin-top: 6.99px;
+  background: #305f64;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
 }
-.contactButton:hover, .inputIcon:hover {
-    cursor: pointer;
+.contactButton:hover,
+.inputIcon:hover {
+  cursor: pointer;
 }
 
 /* footer */
 
 .footer {
-    width: 100%;
-    margin-top: 140px;
-height: 442px;
-background: #305F64;
+  width: 100vw;
+  margin-top: 140px;
+  background: #305f64;
+}
+.upperFooter {
+  height: 377.65px;
 }
 .footerContent {
-    margin-top: 100.27px;
-    margin-left: 120px;
-    height: 277.65px;
+  width: fit-content;
+  padding-top: 100px;
+  margin: 0 auto auto;
+  display: flex;
+}
+.footerTitle {
+  all: unset;
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footerText {
+  width: 308px;
+  margin-top: 24px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footerHeading {
+  all: unset;
+  margin-bottom: 24px;
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.followTitle {
+  margin-top: 40px;
+}
+.followIcon {
+  width: 20px;
+  height: 20px;
+}
+.followIcon:hover {
+    cursor: pointer;
+}
+.footerFollowIcons {
+  width: 125px;
+  margin-top: 20.46px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerTour {
+  margin-left: 157.02px;
+}
+.footerList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footerList > li:hover {
+  cursor: pointer;
+}
+.footerList a {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.footerCompany {
+  margin-left: 100px;
+}
+.footerSubscribe {
+  margin-left: 108.52px;
+}
+.footerSubscribeText {
+  width: 240px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.footerSubscribeForm {
+  margin-top: 40px;
+  width: 253px;
+  height: 48px;
+  background: #ffffff;
+  display: flex;
+}
+.footerSubscribeInput {
+  margin-left: 22px;
+  width: 191px;
+  border: none;
+}
+.arrowInputIcon {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+}
+.footerLine {
+  height: 1px;
+  background: #407980;
 }
 .copyright {
-    height: 63.09px;
+  height: 63.09px;
+}
+.copyrightText {
+  width: max-content;
+  padding: 20px 569px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
 }
